@@ -35,16 +35,16 @@
             btnDangXuat = new Button();
             pictureBox1 = new PictureBox();
             tabPage2 = new TabPage();
-            btnHienThi = new Button();
+            btnShow = new Button();
             dataGridView1 = new DataGridView();
-            textBox6 = new TextBox();
+            txtManageSearch = new TextBox();
             textBox5 = new TextBox();
-            textBox4 = new TextBox();
-            textBox3 = new TextBox();
-            comboBox1 = new ComboBox();
-            dateTimePicker1 = new DateTimePicker();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            txtManageSDT = new TextBox();
+            txtManageAddress = new TextBox();
+            cBSex = new ComboBox();
+            dtpBirth = new DateTimePicker();
+            txtManageName = new TextBox();
+            txtManageMDG = new TextBox();
             label8 = new Label();
             label7 = new Label();
             label6 = new Label();
@@ -57,12 +57,37 @@
             groupBox2 = new GroupBox();
             groupBox1 = new GroupBox();
             tabPage4 = new TabPage();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            txtBorrowMDG = new TextBox();
+            txtBorrowMS = new TextBox();
+            txtBorrowNameS = new TextBox();
+            dtpDateBorrow = new DateTimePicker();
+            btnBorrowAdd = new Button();
+            bnBorrowFix = new Button();
+            groupBox3 = new GroupBox();
+            groupBox4 = new GroupBox();
+            comboBox2 = new ComboBox();
+            label13 = new Label();
+            txtSearch = new TextBox();
+            txtGiveMDG = new TextBox();
+            txtGiveMS = new TextBox();
+            label14 = new Label();
+            label15 = new Label();
+            btnGiveExit = new Button();
+            btnGiveShow = new Button();
+            btnGiveSearch = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             tabPage3.SuspendLayout();
+            groupBox1.SuspendLayout();
+            tabPage4.SuspendLayout();
+            groupBox3.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
@@ -142,16 +167,16 @@
             // tabPage2
             // 
             tabPage2.BackColor = Color.FromArgb(255, 224, 192);
-            tabPage2.Controls.Add(btnHienThi);
+            tabPage2.Controls.Add(btnShow);
             tabPage2.Controls.Add(dataGridView1);
-            tabPage2.Controls.Add(textBox6);
+            tabPage2.Controls.Add(txtManageSearch);
             tabPage2.Controls.Add(textBox5);
-            tabPage2.Controls.Add(textBox4);
-            tabPage2.Controls.Add(textBox3);
-            tabPage2.Controls.Add(comboBox1);
-            tabPage2.Controls.Add(dateTimePicker1);
-            tabPage2.Controls.Add(textBox2);
-            tabPage2.Controls.Add(textBox1);
+            tabPage2.Controls.Add(txtManageSDT);
+            tabPage2.Controls.Add(txtManageAddress);
+            tabPage2.Controls.Add(cBSex);
+            tabPage2.Controls.Add(dtpBirth);
+            tabPage2.Controls.Add(txtManageName);
+            tabPage2.Controls.Add(txtManageMDG);
             tabPage2.Controls.Add(label8);
             tabPage2.Controls.Add(label7);
             tabPage2.Controls.Add(label6);
@@ -168,15 +193,15 @@
             tabPage2.Text = "Quản lí độc giả";
             tabPage2.Click += tabPage2_Click;
             // 
-            // btnHienThi
+            // btnShow
             // 
-            btnHienThi.Location = new Point(493, 172);
-            btnHienThi.Name = "btnHienThi";
-            btnHienThi.Size = new Size(94, 29);
-            btnHienThi.TabIndex = 18;
-            btnHienThi.Text = "Hiển thị";
-            btnHienThi.UseVisualStyleBackColor = true;
-            btnHienThi.Click += button1_Click_1;
+            btnShow.Location = new Point(493, 172);
+            btnShow.Name = "btnShow";
+            btnShow.Size = new Size(94, 29);
+            btnShow.TabIndex = 18;
+            btnShow.Text = "Hiển thị";
+            btnShow.UseVisualStyleBackColor = true;
+            btnShow.Click += button1_Click_1;
             // 
             // dataGridView1
             // 
@@ -188,12 +213,12 @@
             dataGridView1.Size = new Size(1100, 243);
             dataGridView1.TabIndex = 17;
             // 
-            // textBox6
+            // txtManageSearch
             // 
-            textBox6.Location = new Point(844, 109);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(158, 27);
-            textBox6.TabIndex = 16;
+            txtManageSearch.Location = new Point(844, 109);
+            txtManageSearch.Name = "txtManageSearch";
+            txtManageSearch.Size = new Size(158, 27);
+            txtManageSearch.TabIndex = 16;
             // 
             // textBox5
             // 
@@ -202,49 +227,49 @@
             textBox5.Size = new Size(151, 27);
             textBox5.TabIndex = 15;
             // 
-            // textBox4
+            // txtManageSDT
             // 
-            textBox4.Location = new Point(560, 64);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(151, 27);
-            textBox4.TabIndex = 14;
+            txtManageSDT.Location = new Point(560, 64);
+            txtManageSDT.Name = "txtManageSDT";
+            txtManageSDT.Size = new Size(151, 27);
+            txtManageSDT.TabIndex = 14;
             // 
-            // textBox3
+            // txtManageAddress
             // 
-            textBox3.Location = new Point(560, 19);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(151, 27);
-            textBox3.TabIndex = 13;
+            txtManageAddress.Location = new Point(560, 19);
+            txtManageAddress.Name = "txtManageAddress";
+            txtManageAddress.Size = new Size(151, 27);
+            txtManageAddress.TabIndex = 13;
             // 
-            // comboBox1
+            // cBSex
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Nam", "Nữ" });
-            comboBox1.Location = new Point(186, 116);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 12;
+            cBSex.FormattingEnabled = true;
+            cBSex.Items.AddRange(new object[] { "Nam", "Nữ" });
+            cBSex.Location = new Point(186, 116);
+            cBSex.Name = "cBSex";
+            cBSex.Size = new Size(151, 28);
+            cBSex.TabIndex = 12;
             // 
-            // dateTimePicker1
+            // dtpBirth
             // 
-            dateTimePicker1.Location = new Point(186, 171);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(250, 27);
-            dateTimePicker1.TabIndex = 11;
+            dtpBirth.Location = new Point(186, 171);
+            dtpBirth.Name = "dtpBirth";
+            dtpBirth.Size = new Size(250, 27);
+            dtpBirth.TabIndex = 11;
             // 
-            // textBox2
+            // txtManageName
             // 
-            textBox2.Location = new Point(186, 64);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(151, 27);
-            textBox2.TabIndex = 9;
+            txtManageName.Location = new Point(186, 64);
+            txtManageName.Name = "txtManageName";
+            txtManageName.Size = new Size(151, 27);
+            txtManageName.TabIndex = 9;
             // 
-            // textBox1
+            // txtManageMDG
             // 
-            textBox1.Location = new Point(186, 19);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(151, 27);
-            textBox1.TabIndex = 8;
+            txtManageMDG.Location = new Point(186, 19);
+            txtManageMDG.Name = "txtManageMDG";
+            txtManageMDG.Size = new Size(151, 27);
+            txtManageMDG.TabIndex = 8;
             // 
             // label8
             // 
@@ -355,6 +380,16 @@
             // groupBox1
             // 
             groupBox1.BackColor = Color.FromArgb(192, 255, 192);
+            groupBox1.Controls.Add(bnBorrowFix);
+            groupBox1.Controls.Add(btnBorrowAdd);
+            groupBox1.Controls.Add(dtpDateBorrow);
+            groupBox1.Controls.Add(txtBorrowNameS);
+            groupBox1.Controls.Add(txtBorrowMS);
+            groupBox1.Controls.Add(txtBorrowMDG);
+            groupBox1.Controls.Add(label12);
+            groupBox1.Controls.Add(label11);
+            groupBox1.Controls.Add(label10);
+            groupBox1.Controls.Add(label9);
             groupBox1.Location = new Point(-4, 0);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(1100, 251);
@@ -364,6 +399,8 @@
             // 
             // tabPage4
             // 
+            tabPage4.Controls.Add(groupBox4);
+            tabPage4.Controls.Add(groupBox3);
             tabPage4.Location = new Point(4, 29);
             tabPage4.Name = "tabPage4";
             tabPage4.Padding = new Padding(3);
@@ -371,6 +408,219 @@
             tabPage4.TabIndex = 3;
             tabPage4.Text = "Quản lí trả sách";
             tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            label9.BackColor = Color.FromArgb(255, 255, 128);
+            label9.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label9.Location = new Point(23, 31);
+            label9.Name = "label9";
+            label9.Size = new Size(114, 25);
+            label9.TabIndex = 0;
+            label9.Text = "Mã Độc Giả";
+            label9.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label10
+            // 
+            label10.BackColor = Color.FromArgb(255, 255, 128);
+            label10.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label10.Location = new Point(23, 85);
+            label10.Name = "label10";
+            label10.Size = new Size(114, 25);
+            label10.TabIndex = 1;
+            label10.Text = "Mã Sách";
+            label10.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label11
+            // 
+            label11.BackColor = Color.FromArgb(255, 255, 128);
+            label11.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label11.Location = new Point(23, 139);
+            label11.Name = "label11";
+            label11.Size = new Size(114, 25);
+            label11.TabIndex = 2;
+            label11.Text = "Tên Sách";
+            label11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label12
+            // 
+            label12.BackColor = Color.FromArgb(255, 255, 128);
+            label12.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label12.Location = new Point(337, 31);
+            label12.Name = "label12";
+            label12.Size = new Size(124, 25);
+            label12.TabIndex = 3;
+            label12.Text = "Ngày Mượn";
+            label12.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // txtBorrowMDG
+            // 
+            txtBorrowMDG.Location = new Point(187, 28);
+            txtBorrowMDG.Name = "txtBorrowMDG";
+            txtBorrowMDG.Size = new Size(125, 27);
+            txtBorrowMDG.TabIndex = 4;
+            // 
+            // txtBorrowMS
+            // 
+            txtBorrowMS.Location = new Point(187, 78);
+            txtBorrowMS.Name = "txtBorrowMS";
+            txtBorrowMS.Size = new Size(125, 27);
+            txtBorrowMS.TabIndex = 5;
+            // 
+            // txtBorrowNameS
+            // 
+            txtBorrowNameS.Location = new Point(187, 132);
+            txtBorrowNameS.Name = "txtBorrowNameS";
+            txtBorrowNameS.Size = new Size(125, 27);
+            txtBorrowNameS.TabIndex = 6;
+            // 
+            // dtpDateBorrow
+            // 
+            dtpDateBorrow.Location = new Point(514, 29);
+            dtpDateBorrow.Name = "dtpDateBorrow";
+            dtpDateBorrow.Size = new Size(250, 27);
+            dtpDateBorrow.TabIndex = 7;
+            // 
+            // btnBorrowAdd
+            // 
+            btnBorrowAdd.BackColor = Color.FromArgb(255, 224, 192);
+            btnBorrowAdd.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            btnBorrowAdd.Location = new Point(438, 112);
+            btnBorrowAdd.Name = "btnBorrowAdd";
+            btnBorrowAdd.Size = new Size(94, 52);
+            btnBorrowAdd.TabIndex = 8;
+            btnBorrowAdd.Text = "Thêm";
+            btnBorrowAdd.UseVisualStyleBackColor = false;
+            // 
+            // bnBorrowFix
+            // 
+            bnBorrowFix.BackColor = Color.FromArgb(255, 224, 192);
+            bnBorrowFix.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            bnBorrowFix.Location = new Point(637, 112);
+            bnBorrowFix.Name = "bnBorrowFix";
+            bnBorrowFix.Size = new Size(94, 52);
+            bnBorrowFix.TabIndex = 9;
+            bnBorrowFix.Text = "Sửa";
+            bnBorrowFix.UseVisualStyleBackColor = false;
+            // 
+            // groupBox3
+            // 
+            groupBox3.BackColor = Color.FromArgb(255, 255, 192);
+            groupBox3.Controls.Add(btnGiveSearch);
+            groupBox3.Controls.Add(btnGiveShow);
+            groupBox3.Controls.Add(btnGiveExit);
+            groupBox3.Controls.Add(label15);
+            groupBox3.Controls.Add(label14);
+            groupBox3.Controls.Add(txtGiveMS);
+            groupBox3.Controls.Add(txtGiveMDG);
+            groupBox3.Controls.Add(txtSearch);
+            groupBox3.Controls.Add(label13);
+            groupBox3.Controls.Add(comboBox2);
+            groupBox3.Dock = DockStyle.Top;
+            groupBox3.Location = new Point(3, 3);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(1086, 288);
+            groupBox3.TabIndex = 0;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "groupBox3";
+            // 
+            // groupBox4
+            // 
+            groupBox4.BackColor = Color.FromArgb(224, 224, 224);
+            groupBox4.Dock = DockStyle.Bottom;
+            groupBox4.Location = new Point(3, 297);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(1086, 181);
+            groupBox4.TabIndex = 1;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "groupBox4";
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "Mã Độc Giả", "Mã Sách" });
+            comboBox2.Location = new Point(468, 53);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(151, 28);
+            comboBox2.TabIndex = 0;
+            // 
+            // label13
+            // 
+            label13.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label13.Location = new Point(469, 23);
+            label13.Name = "label13";
+            label13.Size = new Size(150, 27);
+            label13.TabIndex = 1;
+            label13.Text = "Tìm Kiếm Theo";
+            label13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // txtSearch
+            // 
+            txtSearch.Location = new Point(486, 96);
+            txtSearch.Name = "txtSearch";
+            txtSearch.Size = new Size(125, 27);
+            txtSearch.TabIndex = 2;
+            // 
+            // txtGiveMDG
+            // 
+            txtGiveMDG.Location = new Point(23, 228);
+            txtGiveMDG.Name = "txtGiveMDG";
+            txtGiveMDG.Size = new Size(125, 27);
+            txtGiveMDG.TabIndex = 3;
+            // 
+            // txtGiveMS
+            // 
+            txtGiveMS.Location = new Point(203, 228);
+            txtGiveMS.Name = "txtGiveMS";
+            txtGiveMS.Size = new Size(125, 27);
+            txtGiveMS.TabIndex = 4;
+            // 
+            // label14
+            // 
+            label14.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label14.Location = new Point(23, 198);
+            label14.Name = "label14";
+            label14.Size = new Size(125, 27);
+            label14.TabIndex = 5;
+            label14.Text = "Mã Độc Giả";
+            label14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label15
+            // 
+            label15.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label15.Location = new Point(203, 198);
+            label15.Name = "label15";
+            label15.Size = new Size(125, 27);
+            label15.TabIndex = 6;
+            label15.Text = "Mã Sách";
+            label15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // btnGiveExit
+            // 
+            btnGiveExit.Location = new Point(373, 214);
+            btnGiveExit.Name = "btnGiveExit";
+            btnGiveExit.Size = new Size(94, 43);
+            btnGiveExit.TabIndex = 7;
+            btnGiveExit.Text = "Xoá";
+            btnGiveExit.UseVisualStyleBackColor = true;
+            // 
+            // btnGiveShow
+            // 
+            btnGiveShow.Location = new Point(486, 212);
+            btnGiveShow.Name = "btnGiveShow";
+            btnGiveShow.Size = new Size(94, 43);
+            btnGiveShow.TabIndex = 8;
+            btnGiveShow.Text = "Hiển Thị";
+            btnGiveShow.UseVisualStyleBackColor = true;
+            // 
+            // btnGiveSearch
+            // 
+            btnGiveSearch.Location = new Point(503, 129);
+            btnGiveSearch.Name = "btnGiveSearch";
+            btnGiveSearch.Size = new Size(94, 43);
+            btnGiveSearch.TabIndex = 9;
+            btnGiveSearch.Text = "Tìm Kiếm";
+            btnGiveSearch.UseVisualStyleBackColor = true;
             // 
             // frmHeThong
             // 
@@ -389,6 +639,11 @@
             tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             tabPage3.ResumeLayout(false);
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            tabPage4.ResumeLayout(false);
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -408,13 +663,13 @@
         private Label label6;
         private Label label5;
         private Label label4;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private ComboBox comboBox1;
-        private DateTimePicker dateTimePicker1;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private TextBox textBox6;
+        private TextBox txtManageSDT;
+        private TextBox txtManageAddress;
+        private ComboBox cBSex;
+        private DateTimePicker dtpBirth;
+        private TextBox txtManageName;
+        private TextBox txtManageMDG;
+        private TextBox txtManageSearch;
         private TextBox textBox5;
         private TabPage tabPage4;
         private PictureBox pictureBox1;
@@ -422,6 +677,28 @@
         private Label lblChaoMung;
         private GroupBox groupBox2;
         private GroupBox groupBox1;
-        private Button btnHienThi;
+        private Button btnShow;
+        private Button bnBorrowFix;
+        private Button btnBorrowAdd;
+        private DateTimePicker dtpDateBorrow;
+        private TextBox txtBorrowNameS;
+        private TextBox txtBorrowMS;
+        private TextBox txtBorrowMDG;
+        private Label label12;
+        private Label label11;
+        private Label label10;
+        private Label label9;
+        private GroupBox groupBox4;
+        private GroupBox groupBox3;
+        private Label label13;
+        private ComboBox comboBox2;
+        private Button btnGiveSearch;
+        private Button btnGiveShow;
+        private Button btnGiveExit;
+        private Label label15;
+        private Label label14;
+        private TextBox txtGiveMS;
+        private TextBox txtGiveMDG;
+        private TextBox txtSearch;
     }
 }
