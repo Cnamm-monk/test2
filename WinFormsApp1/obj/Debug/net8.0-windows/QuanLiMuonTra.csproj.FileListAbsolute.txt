@@ -1,19 +1,27 @@
-D:\Thư mục mới (3)\WinFormsApp1\bin\Debug\net8.0-windows\QuanLiMuonTra.exe
-D:\Thư mục mới (3)\WinFormsApp1\bin\Debug\net8.0-windows\QuanLiMuonTra.deps.json
-D:\Thư mục mới (3)\WinFormsApp1\bin\Debug\net8.0-windows\QuanLiMuonTra.runtimeconfig.json
-D:\Thư mục mới (3)\WinFormsApp1\bin\Debug\net8.0-windows\QuanLiMuonTra.dll
-D:\Thư mục mới (3)\WinFormsApp1\bin\Debug\net8.0-windows\QuanLiMuonTra.pdb
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.csproj.GenerateResource.cache
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.GeneratedMSBuildEditorConfig.editorconfig
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.AssemblyInfoInputs.cache
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.AssemblyInfo.cs
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.csproj.CoreCompileInputs.cache
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.dll
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\refint\QuanLiMuonTra.dll
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.pdb
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.genruntimeconfig.cache
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\ref\QuanLiMuonTra.dll
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.frmHeThong.resources
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.Properties.Resources.resources
-D:\Thư mục mới (3)\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.sourcelink.json
+D:\nnlt\dự án\WinFormsApp1\bin\Debug\net8.0-windows\QuanLiMuonTra.exe
+D:\nnlt\dự án\WinFormsApp1\bin\Debug\net8.0-windows\QuanLiMuonTra.deps.json
+D:\nnlt\dự án\WinFormsApp1\bin\Debug\net8.0-windows\QuanLiMuonTra.runtimeconfig.json
+D:\nnlt\dự án\WinFormsApp1\bin\Debug\net8.0-windows\QuanLiMuonTra.dll
+D:\nnlt\dự án\WinFormsApp1\bin\Debug\net8.0-windows\QuanLiMuonTra.pdb
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.frmHeThong.resources
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.Properties.Resources.resources
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.csproj.GenerateResource.cache
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.GeneratedMSBuildEditorConfig.editorconfig
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.AssemblyInfoInputs.cache
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.AssemblyInfo.cs
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.csproj.CoreCompileInputs.cache
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.sourcelink.json
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.dll
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\refint\QuanLiMuonTra.dll
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.pdb
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.genruntimeconfig.cache
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\ref\QuanLiMuonTra.dll
+D:\nnlt\dự án\WinFormsApp1\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\nnlt\dự án\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\nnlt\dự án\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\nnlt\dự án\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\nnlt\dự án\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\nnlt\dự án\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMuonTra.csproj.AssemblyReference.cache
+D:\nnlt\dự án\WinFormsApp1\obj\Debug\net8.0-windows\QuanLiMu.7D35B8D4.Up2Date

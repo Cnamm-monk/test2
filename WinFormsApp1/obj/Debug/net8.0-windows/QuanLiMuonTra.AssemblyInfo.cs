@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuanLiMuonTra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf2a0d2ec7709fceaed93c36a753de80ddb481df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a1510eb97e58e41da0e4e07567867c04cc00912")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuanLiMuonTra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuanLiMuonTra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

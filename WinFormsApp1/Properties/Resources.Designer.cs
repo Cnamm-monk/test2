@@ -59,5 +59,15 @@ namespace QuanLiMuonTra.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_pixabay_159711 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-pixabay-159711", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
