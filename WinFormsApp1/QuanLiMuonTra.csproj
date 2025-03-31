@@ -27,4 +27,11 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ENTITY\" />
+    <Folder Include="BLL\" />
+    <Folder Include="Classes\" />
+    <Folder Include="DAL\" />
+  </ItemGroup>
+
 </Project>

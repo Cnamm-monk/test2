@@ -2,10 +2,10 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Form1.cs">
+    <Compile Update="GUI\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="heThong.cs">
+    <Compile Update="GUI\heThong.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
